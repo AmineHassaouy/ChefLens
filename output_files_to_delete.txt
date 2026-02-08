@@ -1,0 +1,1050 @@
+
+Scanning 26 datasets under: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets
+
+========================================================================================================================
+[1] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\apple\Apple--1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\apple\Apple--1\data.yaml
+    nc: 2
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 2 | dict key types: None
+    names sample: ['apple', 'damaged_apple']
+    splits (exists/images/labels):
+      - train exists=True images=487 labels=487
+      - valid exists=True images=139 labels=139
+      - test  exists=True images=70 labels=70
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=1 unique(sample)=[0, 1]
+      - test  min=0 max=1 unique(sample)=[0, 1]
+    consistency check (images/labels pairing):
+      - train images=487 labels=487 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=139 labels=139 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=70 labels=70 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=696 labels=696
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 696 images, 696 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (696 items)
+    Status counts (top): OK=696
+
+========================================================================================================================
+[2] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\apple\apple-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\apple\apple-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['manzana_amarilla']
+    splits (exists/images/labels):
+      - train exists=True images=237 labels=237
+      - valid exists=True images=68 labels=68
+      - test  exists=True images=34 labels=34
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=237 labels=237 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=68 labels=68 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=34 labels=34 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=339 labels=339
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 339 images, 339 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (339 items)
+    Status counts (top): OK=339
+
+========================================================================================================================
+[3] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\apple\apple——alll-2
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\apple\apple——alll-2\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['apples']
+    splits (exists/images/labels):
+      - train exists=True images=108 labels=108
+      - valid exists=True images=22 labels=22
+      - test  exists=True images=8 labels=8
+    label class-id sample (from up to 3 label files per split):
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=108 labels=108 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=22 labels=22 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=8 labels=8 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=138 labels=138
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 138 images, 138 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (138 items)
+    Status counts (top): OK=138
+
+========================================================================================================================
+[4] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\banana\banana-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\banana\banana-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['banana']
+    splits (exists/images/labels):
+      - train exists=True images=1241 labels=1241
+      - valid exists=True images=355 labels=355
+      - test  exists=True images=182 labels=182
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=1241 labels=1241 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=355 labels=355 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=182 labels=182 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=1778 labels=1778
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 1778 images, 1778 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (1778 items)
+    Status counts (top): OK=1778
+
+========================================================================================================================
+[5] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\bread\bread-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\bread\bread-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['0']
+    splits (exists/images/labels):
+      - train exists=True images=98 labels=98
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=98 labels=98 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=98 labels=98
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 98 images, 98 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (98 items)
+    Status counts (top): OK=98
+
+========================================================================================================================
+[6] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\bread\bread-6
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\bread\bread-6\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['bread']
+    splits (exists/images/labels):
+      - train exists=True images=100 labels=100
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=100 labels=100 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=100 labels=100
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 100 images, 100 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (100 items)
+    Status counts (top): OK=100
+
+========================================================================================================================
+[7] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\carrot\carrot-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\carrot\carrot-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['carrot']
+    splits (exists/images/labels):
+      - train exists=True images=621 labels=621
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=621 labels=621 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=621 labels=621
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 621 images, 621 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (621 items)
+    Status counts (top): OK=621
+
+========================================================================================================================
+[8] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\carrot\Carrot-2
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\carrot\Carrot-2\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['Carrot']
+    splits (exists/images/labels):
+      - train exists=True images=200 labels=200
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=200 labels=200 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=200 labels=200
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 200 images, 200 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (200 items)
+    Status counts (top): OK=200
+
+========================================================================================================================
+[9] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\carrot\carrot-3
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\carrot\carrot-3\data.yaml
+    nc: 8
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 8 | dict key types: None
+    names sample: ['carrot', 'egg', 'half carrot', 'half onion', 'half zucchini', 'onion', 'potato', 'zucchini']
+    splits (exists/images/labels):
+      - train exists=True images=200 labels=200
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=5 unique(sample)=[0, 2, 5]
+    consistency check (images/labels pairing):
+      - train images=200 labels=200 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=200 labels=200
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 200 images, 200 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (200 items)
+    Status counts (top): OK=200
+
+========================================================================================================================
+[10] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\egg\egg-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\egg\egg-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['eggsDetect - v1 2024-05-07 8-16pm']
+    splits (exists/images/labels):
+      - train exists=True images=2695 labels=2695
+      - valid exists=True images=770 labels=770
+      - test  exists=True images=385 labels=385
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=2695 labels=2695 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=770 labels=770 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=385 labels=385 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=3850 labels=3850
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 3850 images, 3850 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (3850 items)
+    Status counts (top): OK=3850
+
+========================================================================================================================
+[11] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\garlic\Garlic-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\garlic\Garlic-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['garlic']
+    splits (exists/images/labels):
+      - train exists=True images=710 labels=710
+      - valid exists=True images=41 labels=41
+      - test  exists=True images=20 labels=20
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=710 labels=710 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=41 labels=41 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=20 labels=20 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=771 labels=771
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 771 images, 771 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (771 items)
+    Status counts (top): OK=771
+
+========================================================================================================================
+[12] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\garlic\garlic-2
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\garlic\garlic-2\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['garlic']
+    splits (exists/images/labels):
+      - train exists=True images=600 labels=600
+      - valid exists=True images=34 labels=34
+      - test  exists=True images=17 labels=17
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=600 labels=600 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=34 labels=34 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=17 labels=17 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=651 labels=651
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 651 images, 651 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (651 items)
+    Status counts (top): OK=651
+
+========================================================================================================================
+[13] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\garlic\garlic-chicken-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\garlic\garlic-chicken-1\data.yaml
+    nc: 2
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 2 | dict key types: None
+    names sample: ['garlic', 'onion']
+    splits (exists/images/labels):
+      - train exists=True images=251 labels=251
+      - valid exists=True images=24 labels=24
+      - test  exists=True images=12 labels=12
+    label class-id sample (from up to 3 label files per split):
+      - train min=1 max=1 unique(sample)=[1]
+      - valid min=0 max=1 unique(sample)=[0, 1]
+      - test  min=0 max=1 unique(sample)=[0, 1]
+    consistency check (images/labels pairing):
+      - train images=251 labels=251 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=24 labels=24 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=12 labels=12 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=287 labels=287
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 287 images, 287 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (287 items)
+    Status counts (top): OK=287
+
+========================================================================================================================
+[14] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\garlic\Garlic-Class-Dataset-4
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\garlic\Garlic-Class-Dataset-4\data.yaml
+    nc: 3
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 3 | dict key types: None
+    names sample: ['Class-A', 'Class-B', 'Class-C']
+    splits (exists/images/labels):
+      - train exists=True images=630 labels=630
+      - valid exists=True images=45 labels=45
+      - test  exists=True images=45 labels=45
+    label class-id sample (from up to 3 label files per split):
+      - train min=2 max=2 unique(sample)=[2]
+      - valid min=2 max=2 unique(sample)=[2]
+      - test  min=2 max=2 unique(sample)=[2]
+    consistency check (images/labels pairing):
+      - train images=630 labels=630 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=45 labels=45 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=45 labels=45 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=720 labels=720
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 720 images, 720 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (720 items)
+    Status counts (top): OK=720
+
+========================================================================================================================
+[15] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\milk\almond-breeze-milk-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\milk\almond-breeze-milk-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['almond_milk']
+    splits (exists/images/labels):
+      - train exists=True images=475 labels=475
+      - test  exists=True images=25 labels=25
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=475 labels=475 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=25 labels=25 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=500 labels=500
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 500 images, 500 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (500 items)
+    Status counts (top): OK=500
+
+========================================================================================================================
+[16] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\milk\milk-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\milk\milk-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['milk']
+    splits (exists/images/labels):
+      - train exists=True images=507 labels=507
+      - valid exists=True images=40 labels=40
+      - test  exists=True images=24 labels=24
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=507 labels=507 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=40 labels=40 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=24 labels=24 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=571 labels=571
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 571 images, 571 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (571 items)
+    Status counts (top): OK=571
+
+========================================================================================================================
+[17] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\milk\Milk-4
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\milk\Milk-4\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['milk-sin-lactosa']
+    splits (exists/images/labels):
+      - train exists=True images=742 labels=742
+      - valid exists=True images=220 labels=220
+      - test  exists=True images=54 labels=54
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=742 labels=742 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=220 labels=220 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=54 labels=54 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=1016 labels=1016
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    [valid] 🔴 FORMAT ERROR: milk_00000_jpg.rf.84dbf76cf859fa62b940ecf20c3e563d.txt line 1 has 19 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: milk_00001_jpg.rf.4f4c27b84b7a6eb570170d4e4a31ea81.txt line 1 has 19 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: milk_00002_jpg.rf.26461f38a437c1b2bed24209003afe2e.txt line 1 has 21 values (expected 5)
+    Summary: 1016 images, 1016 labels, 0 missing labels, 0 corrupt, 3 invalid label files, 3 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ❌ Found 3 issues in 1016 files.
+       - [valid] milk_00000_jpg.rf.84dbf76cf859fa62b940ecf20c3e563d.jpg: MALFORMED_YOLO_LINE
+       - [valid] milk_00001_jpg.rf.4f4c27b84b7a6eb570170d4e4a31ea81.jpg: MALFORMED_YOLO_LINE
+       - [valid] milk_00002_jpg.rf.26461f38a437c1b2bed24209003afe2e.jpg: MALFORMED_YOLO_LINE
+    Status counts (top): OK=1013, MALFORMED_YOLO_LINE=3
+
+========================================================================================================================
+[18] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\onion\HÀNH_TÂY--1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\onion\HÀNH_TÂY--1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['DTH_HANH-TAY']
+    splits (exists/images/labels):
+      - train exists=True images=1339 labels=1339
+      - valid exists=True images=450 labels=450
+      - test  exists=True images=450 labels=450
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=1339 labels=1339 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=450 labels=450 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=450 labels=450 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=2239 labels=2239
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 2239 images, 2239 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (2239 items)
+    Status counts (top): OK=2239
+
+========================================================================================================================
+[19] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\potato\Potato-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\potato\Potato-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['Kentang']
+    splits (exists/images/labels):
+      - train exists=True images=832 labels=832
+      - valid exists=True images=74 labels=74
+      - test  exists=True images=43 labels=43
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=832 labels=832 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=74 labels=74 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=43 labels=43 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=949 labels=949
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    [test] 🔴 FORMAT ERROR: naver_0000_jpg.rf.c8c7587ad6427632b17585690a181d4a.txt line 1 has 23 values (expected 5)
+    [test] 🔴 FORMAT ERROR: naver_0000_jpg.rf.d8668fd2a5000755f7c625753ccdbabd.txt line 1 has 23 values (expected 5)
+    Summary: 949 images, 949 labels, 0 missing labels, 0 corrupt, 2 invalid label files, 2 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ❌ Found 2 issues in 949 files.
+       - [test] naver_0000_jpg.rf.c8c7587ad6427632b17585690a181d4a.jpg: MALFORMED_YOLO_LINE
+       - [test] naver_0000_jpg.rf.d8668fd2a5000755f7c625753ccdbabd.jpg: MALFORMED_YOLO_LINE
+    Status counts (top): OK=947, MALFORMED_YOLO_LINE=2
+
+========================================================================================================================
+[20] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\potato\potato-11
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\potato\potato-11\data.yaml
+    nc: 2
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 2 | dict key types: None
+    names sample: ['onion', 'potato']
+    splits (exists/images/labels):
+      - train exists=True images=313 labels=313
+    label class-id sample (from up to 3 label files per split):
+      - train min=1 max=1 unique(sample)=[1]
+    consistency check (images/labels pairing):
+      - train images=313 labels=313 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=313 labels=313
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    [train] 🔴 FORMAT ERROR: naver_0000_jpg.rf.22ad7bec592d442dbb6acc7e1abe60de.txt line 1 has 23 values (expected 5)
+    Summary: 313 images, 313 labels, 0 missing labels, 0 corrupt, 1 invalid label files, 1 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ❌ Found 1 issues in 313 files.
+       - [train] naver_0000_jpg.rf.22ad7bec592d442dbb6acc7e1abe60de.jpg: MALFORMED_YOLO_LINE
+    Status counts (top): OK=312, MALFORMED_YOLO_LINE=1
+
+========================================================================================================================
+[21] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\potato\potatos-2
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\potato\potatos-2\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['Potato']
+    splits (exists/images/labels):
+      - train exists=True images=663 labels=663
+      - valid exists=True images=92 labels=92
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=663 labels=663 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=92 labels=92 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=755 labels=755
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    [train] 🔴 FORMAT ERROR: naver_0000_jpg.rf.8f54d9ddbb4ad4c6d64b6771c4c69a9f.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: naver_0000_jpg.rf.9d9b1d5ea91aae1ac030f881873a120c.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: naver_0000_jpg.rf.eecb84881e6f9c1cb703fb938b9c272e.txt line 1 has 27 values (expected 5)
+    Summary: 755 images, 755 labels, 0 missing labels, 0 corrupt, 3 invalid label files, 3 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ❌ Found 3 issues in 755 files.
+       - [train] naver_0000_jpg.rf.8f54d9ddbb4ad4c6d64b6771c4c69a9f.jpg: MALFORMED_YOLO_LINE
+       - [train] naver_0000_jpg.rf.9d9b1d5ea91aae1ac030f881873a120c.jpg: MALFORMED_YOLO_LINE
+       - [train] naver_0000_jpg.rf.eecb84881e6f9c1cb703fb938b9c272e.jpg: MALFORMED_YOLO_LINE
+    Status counts (top): OK=752, MALFORMED_YOLO_LINE=3
+
+========================================================================================================================
+[22] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\rice\rice-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\rice\rice-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['rice']
+    splits (exists/images/labels):
+      - train exists=True images=989 labels=989
+      - valid exists=True images=164 labels=164
+      - test  exists=True images=82 labels=82
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=989 labels=989 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=164 labels=164 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=82 labels=82 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=1235 labels=1235
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 1235 images, 1235 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (1235 items)
+    Status counts (top): OK=1235
+
+========================================================================================================================
+[23] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\tomato\Tomato-1
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\tomato\Tomato-1\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['Tomato']
+    splits (exists/images/labels):
+      - train exists=True images=1848 labels=1848
+      - valid exists=True images=106 labels=106
+      - test  exists=True images=53 labels=53
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+      - test  min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=1848 labels=1848 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=106 labels=106 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=53 labels=53 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=2007 labels=2007
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 2007 images, 2007 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (2007 items)
+    Status counts (top): OK=2007
+
+========================================================================================================================
+[24] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\tomato\tomato-10
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\tomato\tomato-10\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['tomato']
+    splits (exists/images/labels):
+      - train exists=True images=618 labels=618
+      - valid exists=True images=53 labels=53
+      - test  exists=True images=16 labels=16
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=618 labels=618 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=53 labels=53 | img_missing_lbl=0 lbl_missing_img=0
+      - test  images=16 labels=16 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=687 labels=687
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    [train] 🔴 FORMAT ERROR: 20220413_190510_jpg.rf.17e38ad48c94bb308394b6a5516f501b.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190510_jpg.rf.b1548c6ef4ad18e682415c694f5fc51b.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190510_jpg.rf.dd33cf9b3cd0c4833a01c7cefd797ffe.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190515_jpg.rf.8ae3bb86d499542c2720cbbb4ca0f27d.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190515_jpg.rf.8de1fb2fd5dec4689d16460139157303.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190515_jpg.rf.bac184e5a0d3b820d9ea7566f8107ac7.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190550_jpg.rf.1634faa402a5e07fce7898bc9f8887e2.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190550_jpg.rf.9f92e0b43d06c410b37e96a3f34c4bb8.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190550_jpg.rf.ce3f809fed2c618ed47526d0605fa8ed.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190610_jpg.rf.3ac612d48563e8b617bb8a3f35bbad1a.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190610_jpg.rf.fbcd1c81c7014266fddfa078641ebb1a.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190610_jpg.rf.fe34b12ab235f4c76446a58c0c9cd760.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190656_jpg.rf.1376fe4e769913df6541c370691b1a15.txt line 1 has 43 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190656_jpg.rf.8ee37d3aa53ae374034019989bde19a9.txt line 1 has 45 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190656_jpg.rf.b4aeacbf10e77392d87cb4cf01f456b8.txt line 1 has 41 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190658_jpg.rf.011f2939cb070aabbb8ab849e1f2ee03.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190658_jpg.rf.55999f0e7c7a876c40c8036795192e88.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190658_jpg.rf.9f6551880a31e7e2045cf74a9c3a353d.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190704_jpg.rf.3d8ad52b3caebb5788adcb57d2b50434.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190704_jpg.rf.43fb1cb6d094580a9b02887f90a9eacb.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190704_jpg.rf.b96244f36d1cfb0970962d77b8a9b4d2.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190705_jpg.rf.9158e691ff3b5ddd01fb706f95b36dee.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190705_jpg.rf.ad41f1f02bab92cbb1aa1d58e9eba8a7.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190705_jpg.rf.ee87b4b21011856b1e405f9e4ac79e71.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190711_jpg.rf.2023b73bd08ead9babb6b5fac21ffa67.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190711_jpg.rf.8ae8b9e275d8da63cfbf804669472c33.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190711_jpg.rf.f0a5a889b9d833daa0db89b15f1232f5.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190756_jpg.rf.53a75874f9662707d273623c30b3edae.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190756_jpg.rf.75f361180b5b0e4a1037a6cd766ef355.txt line 1 has 29 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190756_jpg.rf.9bc0f284cd132c165e56919a5070377e.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190807_jpg.rf.9317dd226b32259b3e3a838c733cb669.txt line 1 has 29 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190807_jpg.rf.ad620a008af6d9a6c8c428c51a3c58ac.txt line 1 has 29 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190807_jpg.rf.f31981536f0a31c1797c77de57168e4d.txt line 1 has 29 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190819_jpg.rf.1d85c3e6f43c109758e86485d39d6e5d.txt line 1 has 39 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190819_jpg.rf.3f433878c7f64d129f192e7215fc2154.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190819_jpg.rf.dfd12629ab397de51463755a30b8fdc4.txt line 1 has 39 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190823_jpg.rf.3cae09d9ae4ac64eafb8a9077efbe73f.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190823_jpg.rf.913e8d5a908c525b442e0f3096bc4bf8.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190823_jpg.rf.b5e5a4985b9f9705609d33de0cd0e369.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190849_jpg.rf.1496b93d6706fbe2b22e7ce65e312e8a.txt line 1 has 29 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190849_jpg.rf.66d97e98ae6f9d59a91b26bb75964054.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190849_jpg.rf.ff2c9c9c049cf30e928ba0e57d3bd8cc.txt line 1 has 25 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190852_jpg.rf.3693d886e31e17afc979e959ec4fbad6.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190852_jpg.rf.65b6fabc7045081c62ec356fe27a9a08.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190852_jpg.rf.ccddc0a0e8417d2d31edab686462206a.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190854_jpg.rf.b92075d5c03065eb7b0c496a14df5b65.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190854_jpg.rf.dce1e89a418ec9934160dfc48556eee0.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190854_jpg.rf.e964c07c4f9abf3e661c1a24fbbeba6f.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190901_jpg.rf.20ce054f14e9364c74d7c62b49554810.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190901_jpg.rf.6bff91d16ea5fa563bafa88c1ab2cf80.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190901_jpg.rf.d98910bacc9a87736c0ace61951b24a5.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190902_jpg.rf.49da75613a42db6d98f2f83372e28fa5.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190902_jpg.rf.8820e1a0f32a34c62381bd768d346d68.txt line 1 has 23 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190902_jpg.rf.99ca1b3a7852b59dadb93adfdd8a49dd.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190943_jpg.rf.640aae5e9b2d4e1358a17733c5c55275.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190943_jpg.rf.7586f497af2f92c40d0ba5d0cd162788.txt line 1 has 29 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190943_jpg.rf.d079d35c920d8b6a20a0654d92a9d113.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190944_jpg.rf.6fe44fbdc2cabc6c927d3ba7041126a1.txt line 1 has 25 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190944_jpg.rf.b16fe7a2d54f2a1a3f98bcf6626610cd.txt line 1 has 23 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190944_jpg.rf.e209f39c8873a1da294c2a0346d2af90.txt line 1 has 23 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190952_jpg.rf.1c60255021fedea82a9ddd9edeff5c02.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190952_jpg.rf.3f5a9875420c55d370cde6fb8c277276.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190952_jpg.rf.dccd78a16e7564c99fd9e8b0b6002dc7.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190958_jpg.rf.1fc33cca94bea03748cf3cf8ef80e373.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190958_jpg.rf.726ffeeb630071a66fb7064482ff3f4a.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_190958_jpg.rf.c0b3ed154bb3e13aa3ddcad70d4aeb0d.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191001_jpg.rf.20cda99cae7bb212677a4705f3b4af0c.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191001_jpg.rf.641a0d0c3893e71620bd6769c1bdc263.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191001_jpg.rf.ef27dac6cff4ba462f87b598571781b4.txt line 1 has 39 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191004_jpg.rf.7c3a3fb47f6881c665e1adc54c203dc9.txt line 1 has 39 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191004_jpg.rf.b08ccc74ecbb09ce8d6a6e6b55f74eb6.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191004_jpg.rf.da28448306a10fe002e3ba7f8dfc9ee5.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191024_jpg.rf.6abfe5fb3b9a7f05e9e49be5dc8b9bbf.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191024_jpg.rf.7cc80ee4fdf5aee0a941414e764b6a47.txt line 1 has 29 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191024_jpg.rf.bb3412c3cb7828cf6aa7aae226e3bfb9.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191026_jpg.rf.30da2b93581e93636d6ae3960e857aba.txt line 1 has 41 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191026_jpg.rf.577a4112f360b0218973ad2d0af00fdf.txt line 1 has 39 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191026_jpg.rf.6c33df28805060dbd1bf99b8149eeb76.txt line 1 has 39 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191027_jpg.rf.62fc34c8ad430482fe87aababcf52009.txt line 1 has 49 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191027_jpg.rf.f5cc93080c8ae25cf6a93322108ea840.txt line 1 has 49 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191027_jpg.rf.f702273f138720c2b5656abb023d9495.txt line 1 has 49 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191112_jpg.rf.0caea746eea7364c8941eff72bb2ad1d.txt line 1 has 41 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191112_jpg.rf.aabf38490c633b415a912c87b8f877e6.txt line 1 has 43 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191112_jpg.rf.ad7e0645edf8a859bed93e34ab0296c7.txt line 1 has 47 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191114_jpg.rf.4b8a2742f44e18b870db5f64b2197ca9.txt line 1 has 47 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191114_jpg.rf.b9f2d2ad84206f5516baadd7f463eefd.txt line 1 has 43 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191114_jpg.rf.e49bb5f42fd1ffc475df01fd1c000bb4.txt line 1 has 51 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191118_jpg.rf.40c99628d4f538f7a7dc30fe362d5984.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191118_jpg.rf.8a2db238a85ac1a1e977c07117c398a6.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191118_jpg.rf.f19a34bf311586a45f0f44ec5b7ef60d.txt line 1 has 33 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191124_jpg.rf.234e40fa8452409beccc0c388123f7b4.txt line 1 has 19 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191124_jpg.rf.c30f9878b6d35dcb09bab6d5e2208ac8.txt line 1 has 21 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191124_jpg.rf.e4f4ef60482c444bdd9de59ff1a719eb.txt line 1 has 19 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191126_jpg.rf.99b32a8f4ced900673e125d143c6559b.txt line 1 has 21 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191126_jpg.rf.af664d084addcc282bad43964e9e716b.txt line 1 has 23 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191126_jpg.rf.fb62563ab0b8529dc9e40283c9d2a8f4.txt line 1 has 25 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191133_jpg.rf.66f39dfb0a2d801692d569ac792f9ed8.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191133_jpg.rf.783db95c5451768d0e1009f6246ee8bb.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191133_jpg.rf.a10ea04dc6cadcf22db5ba9315b8b27c.txt line 1 has 39 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191151_jpg.rf.906b5072960bf690cf6888d6c569f904.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191151_jpg.rf.a37bba379f1fe8563d3870e43f974174.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191151_jpg.rf.d8ba080952416d8331b0e8caef03c238.txt line 1 has 37 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191153_jpg.rf.22364d15e858540e897960c03bca54ac.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191153_jpg.rf.55270e2d1dbf2ce8e33b9afda49ed2cf.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191153_jpg.rf.f13f1952feac8e383edc75bbc7b2157d.txt line 1 has 35 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191432_jpg.rf.4a8d7e7795d695c7036a47babe36cfaa.txt line 1 has 27 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191432_jpg.rf.802a645f776ecaebb1349739d881a281.txt line 1 has 31 values (expected 5)
+    [train] 🔴 FORMAT ERROR: 20220413_191432_jpg.rf.81133ee38cd3a6b14a123de5731706cb.txt line 1 has 29 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_190709_jpg.rf.25cf5dfb1df47cfc7874cc71d30025cf.txt line 1 has 41 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_190832_jpg.rf.f2b5c5d5ff2cc226494d1822af3b3916.txt line 1 has 35 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_190907_jpg.rf.5f17c845148400641fe5d9cdbccf87e6.txt line 1 has 47 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_191031_jpg.rf.402adb3261106efba02d6a779e2f56c7.txt line 1 has 37 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_191035_jpg.rf.0f53fa2a0e8bb169e8fd0e7ef3509325.txt line 1 has 37 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_191105_jpg.rf.adbeb4f2f47252e6ab34e62377a66e3d.txt line 1 has 41 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_191110_jpg.rf.68802e93be78fb53a4977250f3d12e91.txt line 1 has 39 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_191116_jpg.rf.e40f07ead909f871b6c6e560dbea1cd7.txt line 1 has 33 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_191120_jpg.rf.f24530ccbc2149d3b2b57a8f6cc7d17a.txt line 1 has 31 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_191122_jpg.rf.eac53c2f91f5b0cbc8591db6f19f5b7d.txt line 1 has 37 values (expected 5)
+    [valid] 🔴 FORMAT ERROR: 20220413_191427_jpg.rf.3c2f9e15dbe3f5a6ec9e58cd9cfd87ae.txt line 1 has 33 values (expected 5)
+    [test] 🔴 FORMAT ERROR: 20220413_190937_jpg.rf.465d0e697315e5a3daeac6d3b8d99501.txt line 1 has 31 values (expected 5)
+    Summary: 687 images, 687 labels, 0 missing labels, 0 corrupt, 120 invalid label files, 120 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ❌ Found 120 issues in 687 files.
+       - [train] 20220413_190510_jpg.rf.17e38ad48c94bb308394b6a5516f501b.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190510_jpg.rf.b1548c6ef4ad18e682415c694f5fc51b.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190510_jpg.rf.dd33cf9b3cd0c4833a01c7cefd797ffe.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190515_jpg.rf.8ae3bb86d499542c2720cbbb4ca0f27d.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190515_jpg.rf.8de1fb2fd5dec4689d16460139157303.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190515_jpg.rf.bac184e5a0d3b820d9ea7566f8107ac7.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190550_jpg.rf.1634faa402a5e07fce7898bc9f8887e2.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190550_jpg.rf.9f92e0b43d06c410b37e96a3f34c4bb8.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190550_jpg.rf.ce3f809fed2c618ed47526d0605fa8ed.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190610_jpg.rf.3ac612d48563e8b617bb8a3f35bbad1a.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190610_jpg.rf.fbcd1c81c7014266fddfa078641ebb1a.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190610_jpg.rf.fe34b12ab235f4c76446a58c0c9cd760.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190656_jpg.rf.1376fe4e769913df6541c370691b1a15.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190656_jpg.rf.8ee37d3aa53ae374034019989bde19a9.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190656_jpg.rf.b4aeacbf10e77392d87cb4cf01f456b8.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190658_jpg.rf.011f2939cb070aabbb8ab849e1f2ee03.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190658_jpg.rf.55999f0e7c7a876c40c8036795192e88.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190658_jpg.rf.9f6551880a31e7e2045cf74a9c3a353d.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190704_jpg.rf.3d8ad52b3caebb5788adcb57d2b50434.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190704_jpg.rf.43fb1cb6d094580a9b02887f90a9eacb.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190704_jpg.rf.b96244f36d1cfb0970962d77b8a9b4d2.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190705_jpg.rf.9158e691ff3b5ddd01fb706f95b36dee.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190705_jpg.rf.ad41f1f02bab92cbb1aa1d58e9eba8a7.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190705_jpg.rf.ee87b4b21011856b1e405f9e4ac79e71.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190711_jpg.rf.2023b73bd08ead9babb6b5fac21ffa67.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190711_jpg.rf.8ae8b9e275d8da63cfbf804669472c33.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190711_jpg.rf.f0a5a889b9d833daa0db89b15f1232f5.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190756_jpg.rf.53a75874f9662707d273623c30b3edae.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190756_jpg.rf.75f361180b5b0e4a1037a6cd766ef355.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190756_jpg.rf.9bc0f284cd132c165e56919a5070377e.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190807_jpg.rf.9317dd226b32259b3e3a838c733cb669.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190807_jpg.rf.ad620a008af6d9a6c8c428c51a3c58ac.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190807_jpg.rf.f31981536f0a31c1797c77de57168e4d.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190819_jpg.rf.1d85c3e6f43c109758e86485d39d6e5d.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190819_jpg.rf.3f433878c7f64d129f192e7215fc2154.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190819_jpg.rf.dfd12629ab397de51463755a30b8fdc4.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190823_jpg.rf.3cae09d9ae4ac64eafb8a9077efbe73f.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190823_jpg.rf.913e8d5a908c525b442e0f3096bc4bf8.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190823_jpg.rf.b5e5a4985b9f9705609d33de0cd0e369.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190849_jpg.rf.1496b93d6706fbe2b22e7ce65e312e8a.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190849_jpg.rf.66d97e98ae6f9d59a91b26bb75964054.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190849_jpg.rf.ff2c9c9c049cf30e928ba0e57d3bd8cc.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190852_jpg.rf.3693d886e31e17afc979e959ec4fbad6.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190852_jpg.rf.65b6fabc7045081c62ec356fe27a9a08.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190852_jpg.rf.ccddc0a0e8417d2d31edab686462206a.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190854_jpg.rf.b92075d5c03065eb7b0c496a14df5b65.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190854_jpg.rf.dce1e89a418ec9934160dfc48556eee0.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190854_jpg.rf.e964c07c4f9abf3e661c1a24fbbeba6f.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190901_jpg.rf.20ce054f14e9364c74d7c62b49554810.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190901_jpg.rf.6bff91d16ea5fa563bafa88c1ab2cf80.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190901_jpg.rf.d98910bacc9a87736c0ace61951b24a5.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190902_jpg.rf.49da75613a42db6d98f2f83372e28fa5.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190902_jpg.rf.8820e1a0f32a34c62381bd768d346d68.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190902_jpg.rf.99ca1b3a7852b59dadb93adfdd8a49dd.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190943_jpg.rf.640aae5e9b2d4e1358a17733c5c55275.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190943_jpg.rf.7586f497af2f92c40d0ba5d0cd162788.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190943_jpg.rf.d079d35c920d8b6a20a0654d92a9d113.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190944_jpg.rf.6fe44fbdc2cabc6c927d3ba7041126a1.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190944_jpg.rf.b16fe7a2d54f2a1a3f98bcf6626610cd.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190944_jpg.rf.e209f39c8873a1da294c2a0346d2af90.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190952_jpg.rf.1c60255021fedea82a9ddd9edeff5c02.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190952_jpg.rf.3f5a9875420c55d370cde6fb8c277276.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190952_jpg.rf.dccd78a16e7564c99fd9e8b0b6002dc7.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190958_jpg.rf.1fc33cca94bea03748cf3cf8ef80e373.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190958_jpg.rf.726ffeeb630071a66fb7064482ff3f4a.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_190958_jpg.rf.c0b3ed154bb3e13aa3ddcad70d4aeb0d.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191001_jpg.rf.20cda99cae7bb212677a4705f3b4af0c.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191001_jpg.rf.641a0d0c3893e71620bd6769c1bdc263.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191001_jpg.rf.ef27dac6cff4ba462f87b598571781b4.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191004_jpg.rf.7c3a3fb47f6881c665e1adc54c203dc9.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191004_jpg.rf.b08ccc74ecbb09ce8d6a6e6b55f74eb6.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191004_jpg.rf.da28448306a10fe002e3ba7f8dfc9ee5.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191024_jpg.rf.6abfe5fb3b9a7f05e9e49be5dc8b9bbf.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191024_jpg.rf.7cc80ee4fdf5aee0a941414e764b6a47.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191024_jpg.rf.bb3412c3cb7828cf6aa7aae226e3bfb9.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191026_jpg.rf.30da2b93581e93636d6ae3960e857aba.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191026_jpg.rf.577a4112f360b0218973ad2d0af00fdf.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191026_jpg.rf.6c33df28805060dbd1bf99b8149eeb76.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191027_jpg.rf.62fc34c8ad430482fe87aababcf52009.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191027_jpg.rf.f5cc93080c8ae25cf6a93322108ea840.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191027_jpg.rf.f702273f138720c2b5656abb023d9495.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191112_jpg.rf.0caea746eea7364c8941eff72bb2ad1d.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191112_jpg.rf.aabf38490c633b415a912c87b8f877e6.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191112_jpg.rf.ad7e0645edf8a859bed93e34ab0296c7.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191114_jpg.rf.4b8a2742f44e18b870db5f64b2197ca9.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191114_jpg.rf.b9f2d2ad84206f5516baadd7f463eefd.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191114_jpg.rf.e49bb5f42fd1ffc475df01fd1c000bb4.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191118_jpg.rf.40c99628d4f538f7a7dc30fe362d5984.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191118_jpg.rf.8a2db238a85ac1a1e977c07117c398a6.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191118_jpg.rf.f19a34bf311586a45f0f44ec5b7ef60d.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191124_jpg.rf.234e40fa8452409beccc0c388123f7b4.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191124_jpg.rf.c30f9878b6d35dcb09bab6d5e2208ac8.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191124_jpg.rf.e4f4ef60482c444bdd9de59ff1a719eb.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191126_jpg.rf.99b32a8f4ced900673e125d143c6559b.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191126_jpg.rf.af664d084addcc282bad43964e9e716b.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191126_jpg.rf.fb62563ab0b8529dc9e40283c9d2a8f4.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191133_jpg.rf.66f39dfb0a2d801692d569ac792f9ed8.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191133_jpg.rf.783db95c5451768d0e1009f6246ee8bb.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191133_jpg.rf.a10ea04dc6cadcf22db5ba9315b8b27c.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191151_jpg.rf.906b5072960bf690cf6888d6c569f904.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191151_jpg.rf.a37bba379f1fe8563d3870e43f974174.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191151_jpg.rf.d8ba080952416d8331b0e8caef03c238.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191153_jpg.rf.22364d15e858540e897960c03bca54ac.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191153_jpg.rf.55270e2d1dbf2ce8e33b9afda49ed2cf.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191153_jpg.rf.f13f1952feac8e383edc75bbc7b2157d.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191432_jpg.rf.4a8d7e7795d695c7036a47babe36cfaa.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191432_jpg.rf.802a645f776ecaebb1349739d881a281.jpg: MALFORMED_YOLO_LINE
+       - [train] 20220413_191432_jpg.rf.81133ee38cd3a6b14a123de5731706cb.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_190709_jpg.rf.25cf5dfb1df47cfc7874cc71d30025cf.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_190832_jpg.rf.f2b5c5d5ff2cc226494d1822af3b3916.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_190907_jpg.rf.5f17c845148400641fe5d9cdbccf87e6.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_191031_jpg.rf.402adb3261106efba02d6a779e2f56c7.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_191035_jpg.rf.0f53fa2a0e8bb169e8fd0e7ef3509325.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_191105_jpg.rf.adbeb4f2f47252e6ab34e62377a66e3d.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_191110_jpg.rf.68802e93be78fb53a4977250f3d12e91.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_191116_jpg.rf.e40f07ead909f871b6c6e560dbea1cd7.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_191120_jpg.rf.f24530ccbc2149d3b2b57a8f6cc7d17a.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_191122_jpg.rf.eac53c2f91f5b0cbc8591db6f19f5b7d.jpg: MALFORMED_YOLO_LINE
+       - [valid] 20220413_191427_jpg.rf.3c2f9e15dbe3f5a6ec9e58cd9cfd87ae.jpg: MALFORMED_YOLO_LINE
+       - [test] 20220413_190937_jpg.rf.465d0e697315e5a3daeac6d3b8d99501.jpg: MALFORMED_YOLO_LINE
+    Status counts (top): OK=567, MALFORMED_YOLO_LINE=120
+
+========================================================================================================================
+[25] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\tomato\tomato-11
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\tomato\tomato-11\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['Tomato']
+    splits (exists/images/labels):
+      - train exists=True images=500 labels=500
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=500 labels=500 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=500 labels=500
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 500 images, 500 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (500 items)
+    Status counts (top): OK=500
+
+========================================================================================================================
+[26] Dataset folder: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\tomato\tomato-2
+    data.yaml: C:\Users\ahass\OneDrive\Desktop\notebooks\projects\PFE\datasets\tomato\tomato-2\data.yaml
+    nc: 1
+    train field: ../train/images
+    val field:   ../valid/images
+    test field:  ../test/images
+    names type: list | inferred len: 1 | dict key types: None
+    names sample: ['tomato']
+    splits (exists/images/labels):
+      - train exists=True images=86 labels=86
+      - valid exists=True images=37 labels=37
+    label class-id sample (from up to 3 label files per split):
+      - train min=0 max=0 unique(sample)=[0]
+      - valid min=0 max=0 unique(sample)=[0]
+    consistency check (images/labels pairing):
+      - train images=86 labels=86 | img_missing_lbl=0 lbl_missing_img=0
+      - valid images=37 labels=37 | img_missing_lbl=0 lbl_missing_img=0
+    --- totals (pairing scan) ---
+    images=123 labels=123
+    images missing labels=0
+    labels missing images=0
+    --- deep integrity scan (detailed) ---
+    ✅ Structure & data look healthy.
+    Summary: 123 images, 123 labels, 0 missing labels, 0 corrupt, 0 invalid label files, 0 invalid label lines.
+    --- status integrity scan (compact, scan3-style) ---
+    ✅ Perfect Integrity! (123 items)
+    Status counts (top): OK=123
+
+
+=== GRAND TOTAL (ALL SCANNED DATASETS) ===
+Datasets scanned:          26
+Images checked:            21344
+Labels found:              21344
+Missing labels:            0
+Corrupt images:            0
+Invalid label files:       129
+Invalid label lines:       129
+Pairing img->no lbl:       0
+Pairing lbl->no img:       0
+Status scan OK:            21215 / 21344
+Status counts (top):       OK=21215, MALFORMED_YOLO_LINE=129
+
+Done.
